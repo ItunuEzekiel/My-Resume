@@ -1,0 +1,223 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/logoit.png" type="image/png">
+  <title>My Resume</title>
+  <!-- ICONSCOUT CDN -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <!-- GOOGLE FONT (POPPINS) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav__container">
+      <a href="index.html" class="nav__logo">
+        <img src="./assets/logoit.png" alt="Navbar logo">
+      </a>
+      <ul class="nav__menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#info">Info</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ================END OF NAV=================== -->
+
+  <header>
+    <div class="container header__container">
+      <article class="header__image">
+        <div><img src="./assets/profile-img.jpg" alt="Header Image"></div>
+      </article>
+      <article class="header__content">
+        <h4>I'm <span> Itunu Ezekiel</span>. And I'll</h4>
+        <h1>Get your business<br>online the right way</h1>
+        <p>Are you looking for a professional developer to put your business online ? You've come
+           to the right place! I've helped business owners bring their ideas to life.
+           Hire me today!</p>
+      </article>
+      <ul class="header__socials">
+        <li><a href="https://twitter.com/" target="_blank"><i class="uil uil-twitter-alt"></i></a></li>
+        <li><a href="https://github.com/" target="_blank"><i class="uil uil-github-alt"></i></a></li>
+        <li><a href="https://linkedin.com/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ====================END OF HEADER===================== -->
+
+  <section class="about" id="about">
+    <div class="container about__container">
+        <div class="about__image">
+            <img src="./assets/IMG_9857.jpg" alt="About Image">
+        </div>
+        <div class="about__details">
+            <h1>About me</h1>
+            <div class="about__cards">
+                <article class="about__card">
+                    <i class="uil uil-award-alt"></i>
+                    <h4>Experience</h4>
+                    <small>2 years</small>
+                </article>
+                <article class="about__card">
+                    <i class="uil uil-swatchbook"></i>
+                    <h4>Projects</h4>
+                    <small>16+ completed</small>
+                </article>
+                <article class="about__card">
+                    <i class="uil uil-users-alt"></i>
+                    <h4>Clients</h4>
+                    <small>2+ nationawide</small>
+                </article>
+            </div>
+            <p>
+               Building projects my clients love have always been my passion. Being in the web
+               development industry for over 1 year now and serving different clients, I'm
+               motivated to do more! 
+            </p>
+            <p>
+                Hello, my name is Itunuoluwa Ezekiel from Oyo state, Nigeria. I'm a full-stack web developer with a
+                Bachelors degree in Chemical Engineering. My top priority is to get your business online
+                the right way, giving you industry standard design and all the functinality you need
+                to operate smoothly online. Get in touch today with details of your project let's 
+                get started. Check out my resume below!
+            </p>
+            <a href="" class="btn primary" download target="_blank">
+                <i class="uil uil-download-alt"></i>Download CV</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================END OF ABOUT ME SECTION======================== -->
+
+<section class="info" id="info">
+  <h1>Summary</h1>
+  <p>
+    I am a hardworking and dedicated individual
+    with experience in Water Treatment and Office 
+    Administration.
+  </p>
+  <ul class="info__categories">
+      <li class="active" data-filter="*">All</li>
+      <li data-filter=".education">Education</li>
+      <li data-filter=".work-experience">Work-Experience</li>
+      <li data-filter=".skills">Skills</li>
+      <li data-filter=".award">Awards and Certifications</li>
+  </ul>
+
+  <div class="container info__container">
+      <article class="info mix education" data-order="1">
+          <div class="info__image">
+              <img src="./assets/landmark pic.jpeg" alt="Landmark University Image">
+          </div>
+          <h3>Education</h3>
+          <ul>
+            <li><i class="uil uil-university"></i><b> University:</b><a href="https://lmu.edu.ng/">Landmark University</a></li>
+            <li><i class="uil uil-briefcase"></i><b> Degree:</b> Bachelor of Engineering in Chemical Engineering</li>
+            <li><i class="uil uil-graduation-cap"></i><b> Graduation year:</b> 2020</li>
+          </ul>
+      </article>
+      <article class="info mix work-experience" data-order="2">
+          <div class="info__image">
+              <img src="./assets/work-experience.jpg" alt="Work Experience Image">
+          </div>
+          <h3>Work-Experience</h3>
+          <ul>
+            <li><i class="uil uil-wrench"></i><b>Internship:</b> <a href="https://www.coca-cola.com/ng/en">Nigeria Bottling Company</a> (January - August, 2016)</li>
+            <li><b>Administrative Assistant:</b><a href="https://uch-ibadan.org.ng/"> UCH, Ibadan</a>(December 2019 - December 2022)</li>
+            <li>IT and Technical support</li>
+              <li><b>Scientific Officer:</b>UCH,Ibadan (December 2019 - December 2022)</li>
+            </ul>
+      </article>
+      <article class="info mix skills" data-order="3">
+          <div class="info__image">
+              <img src="./assets/skill.jpg" alt="Skills Image">
+          </div>
+          <h3>Skills</h3>
+          <ul>
+            <li>Water Treatment: ⭐️⭐️⭐️⭐️⭐️</li>
+            <li>Microsoft Office : ⭐️⭐️⭐️</li>
+            <li>Organizational skills: ⭐️⭐️⭐️⭐️</li>
+            <li>Web Development: ⭐️⭐️</li>
+          </ul>
+      </article>
+      <article class="info mix award" data-order="4"> 
+        <div class="info__image">
+            <img src="./assets/cert.jpeg" alt="Skills Image">
+        </div>
+        <h3>Award and Certifications</h3>
+        <ul>
+          <li>Udemy Fullstack Web developer Certificate</li>
+        </ul>
+        <a href="./assets/udemy cert.pdf" class="btn primary" download target="_blank">
+          <i class="uil uil-download-alt"></i>Download</a>
+    </article>
+  </div>
+</section>
+
+
+<section class="contact" id="contact">
+  <div class="container contact__container">
+      <ul class="contact__list">
+          <li>
+              <a href="mailto:itunuezekiel@yahoo.com" class="contact__list-item" target="_blank">
+                  <i class="uil uil-envelope"></i>
+              </a>
+          </li>
+          <li>
+              <a href="https://www.messenger.com/t/Itunu Ezekiel" class="contact__list-item" target="_blank">
+                  <i class="uil uil-facebook-messenger-alt"></i>
+              </a>
+          </li>
+          <li>
+              <a href="http://wa.me/+2347060689629" class="contact__list-item" target="_blank">
+                  <i class="uil uil-whatsapp"></i>
+              </a>
+          </li>
+          <li>
+              <a href="tel:+2347060689629" class="contact__list-item" target="_blank">
+                  <i class="uil uil-phone"></i>
+              </a>
+          </li>
+      </ul>
+
+      <form action="https://formsubmit.co/itunuezekiel@yahoo.com" method="POST" class="contact__form">
+          <input type="text" name="Name" placeholder="Full Name">
+          <input type="email" name="Email" placeholder="Email Address">
+          <textarea rows="7" name="Message" placeholder="Message"></textarea>
+          <button type="submit" class="btn">Send</button>
+      </form>
+  </div>
+</section>
+
+
+  <footer>
+    <div class="container footer__container">
+      <ul class="footer__menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#info">Info</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <ul class="footer__socials">
+       <li><a href="https://twitter.com/" target="_blank"><i class="uil uil-twitter-alt"></i></a></li>
+       <li><a href="https://github.com/" target="_blank"><i class="uil uil-github-alt"></i></a></li>
+       <li><a href="https://linkedin.com/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+      </ul> 
+   </div>
+   <div class="footer__copyright">
+        <small>2023 Itunu Ezekiel &copy; All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <script src="./mix/dist/mixitup.min.js"></script>
+  <script src="./index.js"></script>
+
+</body>
+
+</html>
